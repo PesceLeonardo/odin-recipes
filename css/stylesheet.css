@@ -1,0 +1,40 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    float: left;
+    background-color: beige;
+    color: black;
+    width: 240px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 4px;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(120, 120, 110);
+    color: white;
+}
+
+.home-button:link, .home-button:visited {
+    width: 1200px;
+    background-color: rgba(190, 190, 190, 0.5);
+    padding: 10px 0;
+    font-size: 24px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    font-style: italic;
+    position: relative;
+    top: 100px;
+}
