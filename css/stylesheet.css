@@ -35,8 +35,6 @@ h1 {
     text-align: center;
     font-size: 64px;
     font-style: italic;
-    position: relative;
-    top: 100px;
 }
 
 .main-description {
@@ -48,4 +46,9 @@ h1 {
 
 .main-description sup {
     font-size: 14px;
+}
+
+header {
+    height: 100px;
+    margin: 50px 0 50px;
 }
