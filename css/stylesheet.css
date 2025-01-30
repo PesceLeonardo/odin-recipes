@@ -1,6 +1,7 @@
 body {
     width: 1200px;
     margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav a:link, nav a:visited {
@@ -52,13 +53,13 @@ header {
 
 h1 {
     text-align: center;
-    font-size: 64px;
+    font-size: 100px;
     font-style: italic;
 }
 
 .main-description {
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     margin: 100px 0;
     padding: 0 64px;
 }
@@ -74,7 +75,7 @@ figure {
 
 img {
     float: left;
-    margin: 0;
+    margin: 0 0 30px;
     padding: 0;
 }
 
