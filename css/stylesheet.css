@@ -4,6 +4,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: purple;
+}
+
 nav a:link, nav a:visited {
     display: block;
     float: left;
@@ -55,6 +61,7 @@ h1 {
     text-align: center;
     font-size: 100px;
     font-style: italic;
+    margin-bottom: 100px;
 }
 
 .main-description {
@@ -68,14 +75,34 @@ h1 {
     font-size: 14px;
 }
 
-figure {
+img {
+    float: right;
+    margin-left: 50px;
+}
+
+footer figure {
     margin: 50px 0 0;
     padding: 0;
 }
 
-img {
+footer img {
     float: left;
     margin: 0 0 30px;
     padding: 0;
 }
 
+p {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 100px 0 50px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+    background-color: beige;
+    padding: 10px 0;
+}
