@@ -2,6 +2,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 a {
@@ -91,8 +92,10 @@ footer img {
     padding: 0;
 }
 
-p {
+.desc {
     margin-bottom: 50px;
+    padding: auto 0 auto;
+    height: 450px;
 }
 
 h2 {
@@ -106,3 +109,24 @@ footer a {
     background-color: beige;
     padding: 10px 0;
 }
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+ol li {
+    margin: 10px 0 0;
+}
+
+ol, ul {
+    padding: 0 100px;
+}
+
+article .steps {
+    margin-top: 100px;
+}
+
